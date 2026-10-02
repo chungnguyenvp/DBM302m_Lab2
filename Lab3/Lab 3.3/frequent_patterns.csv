@@ -1,0 +1,14 @@
+Pattern,Support,Pattern Length
+Apple,7,1
+Donut,7,1
+Banana,6,1
+Cereal,6,1
+Apple -> Donut,5,2
+Apple -> Banana,4,2
+Apple -> Cereal,4,2
+Cereal -> Donut,4,2
+Apple -> Cereal -> Donut,3,3
+Banana -> Cereal,3,2
+Banana -> Donut,3,2
+Apple -> Banana -> Cereal,2,3
+Apple -> Banana -> Donut,2,3
