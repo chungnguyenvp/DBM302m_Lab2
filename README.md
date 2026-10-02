@@ -19,11 +19,13 @@ Thư mục `Lab3/` chứa 4 file PowerPoint hướng dẫn. Mỗi thư mục con
 
 ### Notebook tổng hợp
 
-Mở [Lab3_Tong_Hop.ipynb](Lab3/Lab3_Tong_Hop.ipynb) để theo dõi và chạy toàn bộ bài lab trong một notebook. Notebook tích hợp 8 script Python, giải thích bằng tiếng Việt, bảng kết quả, 4 biểu đồ và báo cáo tổng hợp ở cuối. Kết quả chạy trên dữ liệu mẫu đã được lưu sẵn.
+Mở [Lab3_Tong_Hop.ipynb](Lab3/Lab3_Tong_Hop.ipynb) để học và chạy toàn bộ bài lab trong một notebook. Nội dung được sắp xếp theo Apriori, PrefixSpan, K-Means và PMI, nối phần khám phá với đánh giá ngay trong từng chương. Notebook có giải thích bằng tiếng Việt, các bước code ngắn, bảng kết quả, 4 biểu đồ, báo cáo Markdown và phụ lục nguyên văn đủ 8 file Python. Kết quả chạy trên dữ liệu mẫu đã được lưu sẵn.
+
+Nhóm thực hiện gồm **Nguyễn Đức Chung, Đỗ Công Huy và Nguyễn Thăng Long**.
 
 1. Tải hoặc clone repo để có đầy đủ notebook và CSV.
 2. Mở notebook bằng Jupyter hoặc VS Code và chọn kernel Python.
 3. Chọn **Restart Kernel → Run All**. Cell đầu tự cài các thư viện còn thiếu nếu có kết nối Internet.
-4. Điền thông tin sinh viên ở đầu notebook. Khi đổi dữ liệu hoặc tham số, chạy lại toàn bộ để cập nhật báo cáo.
+4. Bổ sung mã sinh viên và lớp ở đầu notebook. Khi đổi dữ liệu hoặc tham số, chạy lại toàn bộ để cập nhật kết quả và chỉnh số liệu, nhận xét trong báo cáo Markdown cho phù hợp. Báo cáo hiện ghi lần chạy mẫu với tham số mặc định.
 
-Notebook dùng lại kết quả 3.1 để đánh giá ở 3.2; tiếp theo khai phá chuỗi sản phẩm ở 3.3 và cặp từ trong review ở 3.4. Các kết quả bổ sung được xuất vào `Lab3/results_notebook/` khi chạy. Phần kiểm tra bigram liền nhau và mẫu tuần tự đóng được ghi rõ là nội dung bổ sung.
+Notebook dùng lại kết quả 3.1 để đánh giá ở 3.2; áp dụng PrefixSpan cho chuỗi sản phẩm của 3.3 và PMI cho review của 3.4. Các bảng và hình được xuất vào `Lab3/results_notebook/` khi chạy. Phần kiểm tra bigram liền nhau và mẫu tuần tự đóng được ghi rõ là nội dung bổ sung. Phụ lục code gốc nằm trong Markdown để đối chiếu và không chạy lặp khi chọn Run All.
